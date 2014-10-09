@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f98d76ca-c06a-4f3a-b1d6-706279578ac2" name="jfernandezt@JOSE-VAIO 2014-10-08 11:57:10" runUser="Jose-VAIO\jfernandezt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a02889c2-6b52-44bd-a167-3757354a0e9e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jfernandezt_JOSE-VAIO 2014-10-08 11_57_10">
+      <DeploymentItem filename="C:\Users\jfernandezt\Desktop\APP TEMPORAL\APP_RANSA_NET_COLAS\PY_RANSA_NET_WCF\PY_RANSA_NET_EN\bin\Release\PY_RANSA_NET_EN.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-08T11:57:10.3560107-05:00" queuing="2014-10-08T11:57:11.7630912-05:00" start="2014-10-08T11:57:11.9150999-05:00" finish="2014-10-08T11:57:41.7518065-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOSE-VAIO" outcome="Error" timestamp="2014-10-08T11:57:41.7478062-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RegistrarPedidoMovimiento" storage="c:\users\jfernandezt\desktop\app temporal\app_ransa_net_colas\py_ransa_net_wcf\py_ransa_net_ts\bin\release\py_ransa_net_ts.dll" id="cd523e66-69fd-b81d-4747-76ad3e8197b0">
+      <Execution id="52c1c3b2-8928-4261-91f7-73dd32034fca" />
+      <TestMethod codeBase="C:/Users/jfernandezt/Desktop/APP TEMPORAL/APP_RANSA_NET_COLAS/PY_RANSA_NET_WCF/PY_RANSA_NET_TS/bin/Release/PY_RANSA_NET_TS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PY_RANSA_NET_TS.Cls_PedidoTS, PY_RANSA_NET_TS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegistrarPedidoMovimiento" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cd523e66-69fd-b81d-4747-76ad3e8197b0" executionId="52c1c3b2-8928-4261-91f7-73dd32034fca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="52c1c3b2-8928-4261-91f7-73dd32034fca" testId="cd523e66-69fd-b81d-4747-76ad3e8197b0" testName="RegistrarPedidoMovimiento" computerName="JOSE-VAIO" duration="00:00:29.7086993" startTime="2014-10-08T11:57:12.0431072-05:00" endTime="2014-10-08T11:57:41.7518065-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52c1c3b2-8928-4261-91f7-73dd32034fca">
+    </UnitTestResult>
+  </Results>
+</TestRun>

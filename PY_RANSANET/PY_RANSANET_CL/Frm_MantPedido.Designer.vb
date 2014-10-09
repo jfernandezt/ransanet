@@ -34,6 +34,11 @@ Partial Class Frm_MantPedido
         Me.KryptonLabel6 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
         Me.KryptonHeaderGroup1 = New ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup()
         Me.KryptonGroup1 = New ComponentFactory.Krypton.Toolkit.KryptonGroup()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnImprimirPedido = New ComponentFactory.Krypton.Toolkit.KryptonButton()
+        Me.btnVerDetalles = New ComponentFactory.Krypton.Toolkit.KryptonButton()
+        Me.btnVerMovimientos = New ComponentFactory.Krypton.Toolkit.KryptonButton()
+        Me.grDatosPedido = New ComponentFactory.Krypton.Toolkit.KryptonGroup()
         Me.txtIdPedido = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
         Me.txtDesCliente = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
         Me.txtCodCliente = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
@@ -41,16 +46,11 @@ Partial Class Frm_MantPedido
         Me.cboEstadoPedido = New ComponentFactory.Krypton.Toolkit.KryptonComboBox()
         Me.cboTipoPedido = New ComponentFactory.Krypton.Toolkit.KryptonComboBox()
         Me.txtCodPedido = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
-        Me.KryptonLabel5 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
-        Me.KryptonLabel4 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
-        Me.KryptonLabel3 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
-        Me.KryptonLabel2 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
         Me.KryptonLabel1 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnImprimirPedido = New ComponentFactory.Krypton.Toolkit.KryptonButton()
-        Me.btnVerDetalles = New ComponentFactory.Krypton.Toolkit.KryptonButton()
-        Me.btnVerMovimientos = New ComponentFactory.Krypton.Toolkit.KryptonButton()
-        Me.grDatosPedido = New ComponentFactory.Krypton.Toolkit.KryptonGroup()
+        Me.KryptonLabel2 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
+        Me.KryptonLabel4 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
+        Me.KryptonLabel5 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
+        Me.KryptonLabel3 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.tsbGuardar = New System.Windows.Forms.ToolStripButton()
         Me.tsbEditar = New System.Windows.Forms.ToolStripButton()
@@ -78,13 +78,13 @@ Partial Class Frm_MantPedido
         CType(Me.KryptonGroup1.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.KryptonGroup1.Panel.SuspendLayout()
         Me.KryptonGroup1.SuspendLayout()
-        CType(Me.cboEstadoPedido, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cboTipoPedido, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.grDatosPedido, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grDatosPedido.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grDatosPedido.Panel.SuspendLayout()
         Me.grDatosPedido.SuspendLayout()
+        CType(Me.cboEstadoPedido, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cboTipoPedido, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -235,6 +235,66 @@ Partial Class Frm_MantPedido
         Me.KryptonGroup1.Size = New System.Drawing.Size(128, 115)
         Me.KryptonGroup1.TabIndex = 1
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.Controls.Add(Me.btnImprimirPedido)
+        Me.GroupBox1.Controls.Add(Me.btnVerDetalles)
+        Me.GroupBox1.Controls.Add(Me.btnVerMovimientos)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 3)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(112, 105)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        '
+        'btnImprimirPedido
+        '
+        Me.btnImprimirPedido.Location = New System.Drawing.Point(5, 73)
+        Me.btnImprimirPedido.Name = "btnImprimirPedido"
+        Me.btnImprimirPedido.Size = New System.Drawing.Size(103, 25)
+        Me.btnImprimirPedido.TabIndex = 0
+        Me.btnImprimirPedido.Values.Text = "Imprimir Pedido"
+        Me.btnImprimirPedido.Visible = False
+        '
+        'btnVerDetalles
+        '
+        Me.btnVerDetalles.Location = New System.Drawing.Point(5, 42)
+        Me.btnVerDetalles.Name = "btnVerDetalles"
+        Me.btnVerDetalles.Size = New System.Drawing.Size(103, 25)
+        Me.btnVerDetalles.TabIndex = 0
+        Me.btnVerDetalles.Values.Text = "Ver Detalles"
+        '
+        'btnVerMovimientos
+        '
+        Me.btnVerMovimientos.Location = New System.Drawing.Point(5, 11)
+        Me.btnVerMovimientos.Name = "btnVerMovimientos"
+        Me.btnVerMovimientos.Size = New System.Drawing.Size(103, 25)
+        Me.btnVerMovimientos.TabIndex = 0
+        Me.btnVerMovimientos.Values.Text = "Ver Movimientos"
+        '
+        'grDatosPedido
+        '
+        Me.grDatosPedido.Enabled = False
+        Me.grDatosPedido.Location = New System.Drawing.Point(3, 3)
+        Me.grDatosPedido.Name = "grDatosPedido"
+        '
+        'grDatosPedido.Panel
+        '
+        Me.grDatosPedido.Panel.Controls.Add(Me.txtIdPedido)
+        Me.grDatosPedido.Panel.Controls.Add(Me.txtDesCliente)
+        Me.grDatosPedido.Panel.Controls.Add(Me.txtCodCliente)
+        Me.grDatosPedido.Panel.Controls.Add(Me.dtpFecPedido)
+        Me.grDatosPedido.Panel.Controls.Add(Me.cboEstadoPedido)
+        Me.grDatosPedido.Panel.Controls.Add(Me.cboTipoPedido)
+        Me.grDatosPedido.Panel.Controls.Add(Me.txtCodPedido)
+        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel1)
+        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel2)
+        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel4)
+        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel5)
+        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel3)
+        Me.grDatosPedido.Size = New System.Drawing.Size(407, 115)
+        Me.grDatosPedido.TabIndex = 0
+        '
         'txtIdPedido
         '
         Me.txtIdPedido.Enabled = False
@@ -276,6 +336,7 @@ Partial Class Frm_MantPedido
         Me.cboEstadoPedido.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboEstadoPedido.DropDownWidth = 100
         Me.cboEstadoPedido.Enabled = False
+        Me.cboEstadoPedido.Items.AddRange(New Object() {"EN PEDIDO", "EN REQUERIMIENTO", "EN BUSQUEDA", "EN DESPACHO", "EN CAMINO", "RECIBIDO", "ANULADO"})
         Me.cboEstadoPedido.Location = New System.Drawing.Point(54, 82)
         Me.cboEstadoPedido.Name = "cboEstadoPedido"
         Me.cboEstadoPedido.Size = New System.Drawing.Size(206, 21)
@@ -288,6 +349,7 @@ Partial Class Frm_MantPedido
         Me.cboTipoPedido.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTipoPedido.DropDownWidth = 206
         Me.cboTipoPedido.Enabled = False
+        Me.cboTipoPedido.Items.AddRange(New Object() {"ENVIO", "RECOJO"})
         Me.cboTipoPedido.Location = New System.Drawing.Point(54, 35)
         Me.cboTipoPedido.Name = "cboTipoPedido"
         Me.cboTipoPedido.Size = New System.Drawing.Size(206, 21)
@@ -301,29 +363,13 @@ Partial Class Frm_MantPedido
         Me.txtCodPedido.Size = New System.Drawing.Size(61, 20)
         Me.txtCodPedido.TabIndex = 2
         '
-        'KryptonLabel5
+        'KryptonLabel1
         '
-        Me.KryptonLabel5.Location = New System.Drawing.Point(6, 82)
-        Me.KryptonLabel5.Name = "KryptonLabel5"
-        Me.KryptonLabel5.Size = New System.Drawing.Size(50, 20)
-        Me.KryptonLabel5.TabIndex = 1
-        Me.KryptonLabel5.Values.Text = "Estado:"
-        '
-        'KryptonLabel4
-        '
-        Me.KryptonLabel4.Location = New System.Drawing.Point(5, 59)
-        Me.KryptonLabel4.Name = "KryptonLabel4"
-        Me.KryptonLabel4.Size = New System.Drawing.Size(51, 20)
-        Me.KryptonLabel4.TabIndex = 1
-        Me.KryptonLabel4.Values.Text = "Cliente:"
-        '
-        'KryptonLabel3
-        '
-        Me.KryptonLabel3.Location = New System.Drawing.Point(116, 12)
-        Me.KryptonLabel3.Name = "KryptonLabel3"
-        Me.KryptonLabel3.Size = New System.Drawing.Size(45, 20)
-        Me.KryptonLabel3.TabIndex = 1
-        Me.KryptonLabel3.Values.Text = "Fecha:"
+        Me.KryptonLabel1.Location = New System.Drawing.Point(3, 13)
+        Me.KryptonLabel1.Name = "KryptonLabel1"
+        Me.KryptonLabel1.Size = New System.Drawing.Size(53, 20)
+        Me.KryptonLabel1.TabIndex = 1
+        Me.KryptonLabel1.Values.Text = "Código:"
         '
         'KryptonLabel2
         '
@@ -333,72 +379,29 @@ Partial Class Frm_MantPedido
         Me.KryptonLabel2.TabIndex = 1
         Me.KryptonLabel2.Values.Text = "Tipo:"
         '
-        'KryptonLabel1
+        'KryptonLabel4
         '
-        Me.KryptonLabel1.Location = New System.Drawing.Point(3, 13)
-        Me.KryptonLabel1.Name = "KryptonLabel1"
-        Me.KryptonLabel1.Size = New System.Drawing.Size(53, 20)
-        Me.KryptonLabel1.TabIndex = 1
-        Me.KryptonLabel1.Values.Text = "Código:"
+        Me.KryptonLabel4.Location = New System.Drawing.Point(5, 59)
+        Me.KryptonLabel4.Name = "KryptonLabel4"
+        Me.KryptonLabel4.Size = New System.Drawing.Size(51, 20)
+        Me.KryptonLabel4.TabIndex = 1
+        Me.KryptonLabel4.Values.Text = "Cliente:"
         '
-        'GroupBox1
+        'KryptonLabel5
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox1.Controls.Add(Me.btnImprimirPedido)
-        Me.GroupBox1.Controls.Add(Me.btnVerDetalles)
-        Me.GroupBox1.Controls.Add(Me.btnVerMovimientos)
-        Me.GroupBox1.Location = New System.Drawing.Point(9, 3)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(112, 105)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
+        Me.KryptonLabel5.Location = New System.Drawing.Point(6, 82)
+        Me.KryptonLabel5.Name = "KryptonLabel5"
+        Me.KryptonLabel5.Size = New System.Drawing.Size(50, 20)
+        Me.KryptonLabel5.TabIndex = 1
+        Me.KryptonLabel5.Values.Text = "Estado:"
         '
-        'btnImprimirPedido
+        'KryptonLabel3
         '
-        Me.btnImprimirPedido.Location = New System.Drawing.Point(5, 73)
-        Me.btnImprimirPedido.Name = "btnImprimirPedido"
-        Me.btnImprimirPedido.Size = New System.Drawing.Size(103, 25)
-        Me.btnImprimirPedido.TabIndex = 0
-        Me.btnImprimirPedido.Values.Text = "Imprimir Pedido"
-        '
-        'btnVerDetalles
-        '
-        Me.btnVerDetalles.Location = New System.Drawing.Point(5, 42)
-        Me.btnVerDetalles.Name = "btnVerDetalles"
-        Me.btnVerDetalles.Size = New System.Drawing.Size(103, 25)
-        Me.btnVerDetalles.TabIndex = 0
-        Me.btnVerDetalles.Values.Text = "Ver Detalles"
-        '
-        'btnVerMovimientos
-        '
-        Me.btnVerMovimientos.Location = New System.Drawing.Point(5, 11)
-        Me.btnVerMovimientos.Name = "btnVerMovimientos"
-        Me.btnVerMovimientos.Size = New System.Drawing.Size(103, 25)
-        Me.btnVerMovimientos.TabIndex = 0
-        Me.btnVerMovimientos.Values.Text = "Ver Movimientos"
-        '
-        'grDatosPedido
-        '
-        Me.grDatosPedido.Enabled = False
-        Me.grDatosPedido.Location = New System.Drawing.Point(3, 3)
-        Me.grDatosPedido.Name = "grDatosPedido"
-        '
-        'grDatosPedido.Panel
-        '
-        Me.grDatosPedido.Panel.Controls.Add(Me.txtIdPedido)
-        Me.grDatosPedido.Panel.Controls.Add(Me.txtDesCliente)
-        Me.grDatosPedido.Panel.Controls.Add(Me.txtCodCliente)
-        Me.grDatosPedido.Panel.Controls.Add(Me.dtpFecPedido)
-        Me.grDatosPedido.Panel.Controls.Add(Me.cboEstadoPedido)
-        Me.grDatosPedido.Panel.Controls.Add(Me.cboTipoPedido)
-        Me.grDatosPedido.Panel.Controls.Add(Me.txtCodPedido)
-        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel1)
-        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel2)
-        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel4)
-        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel5)
-        Me.grDatosPedido.Panel.Controls.Add(Me.KryptonLabel3)
-        Me.grDatosPedido.Size = New System.Drawing.Size(407, 115)
-        Me.grDatosPedido.TabIndex = 0
+        Me.KryptonLabel3.Location = New System.Drawing.Point(116, 12)
+        Me.KryptonLabel3.Name = "KryptonLabel3"
+        Me.KryptonLabel3.Size = New System.Drawing.Size(45, 20)
+        Me.KryptonLabel3.TabIndex = 1
+        Me.KryptonLabel3.Values.Text = "Fecha:"
         '
         'ToolStrip1
         '
@@ -492,14 +495,14 @@ Partial Class Frm_MantPedido
         Me.KryptonGroup1.Panel.ResumeLayout(False)
         CType(Me.KryptonGroup1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.KryptonGroup1.ResumeLayout(False)
-        CType(Me.cboEstadoPedido, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cboTipoPedido, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.grDatosPedido.Panel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grDatosPedido.Panel.ResumeLayout(False)
         Me.grDatosPedido.Panel.PerformLayout()
         CType(Me.grDatosPedido, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grDatosPedido.ResumeLayout(False)
+        CType(Me.cboEstadoPedido, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cboTipoPedido, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)

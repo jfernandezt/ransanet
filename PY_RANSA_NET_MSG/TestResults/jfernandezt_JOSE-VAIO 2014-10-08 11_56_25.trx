@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aae76ded-8751-484d-87e3-9a25382b920d" name="jfernandezt@JOSE-VAIO 2014-10-08 11:56:25" runUser="Jose-VAIO\jfernandezt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a02889c2-6b52-44bd-a167-3757354a0e9e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jfernandezt_JOSE-VAIO 2014-10-08 11_56_25">
+      <DeploymentItem filename="C:\Users\jfernandezt\Desktop\APP TEMPORAL\APP_RANSA_NET_COLAS\PY_RANSA_NET_WCF\PY_RANSA_NET_EN\bin\Release\PY_RANSA_NET_EN.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-08T11:56:25.6794554-05:00" queuing="2014-10-08T11:56:25.7494594-05:00" start="2014-10-08T11:56:25.7574598-05:00" finish="2014-10-08T11:56:26.1864844-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RegistrarPedidoMovimiento" storage="c:\users\jfernandezt\desktop\app temporal\app_ransa_net_colas\py_ransa_net_wcf\py_ransa_net_ts\bin\release\py_ransa_net_ts.dll" id="cd523e66-69fd-b81d-4747-76ad3e8197b0">
+      <Execution id="676b975b-4629-4c55-9b27-ca1a6b8aa6d0" />
+      <TestMethod codeBase="C:/Users/jfernandezt/Desktop/APP TEMPORAL/APP_RANSA_NET_COLAS/PY_RANSA_NET_WCF/PY_RANSA_NET_TS/bin/Release/PY_RANSA_NET_TS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PY_RANSA_NET_TS.Cls_PedidoTS, PY_RANSA_NET_TS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegistrarPedidoMovimiento" />
+    </UnitTest>
+    <UnitTest name="ConsultaPedidoMovimiento" storage="c:\users\jfernandezt\desktop\app temporal\app_ransa_net_colas\py_ransa_net_wcf\py_ransa_net_ts\bin\release\py_ransa_net_ts.dll" id="c18a5b4f-0de8-f588-f66f-1ed2055df807">
+      <Execution id="d8c6f4fc-878f-4994-822b-44b8922995ea" />
+      <TestMethod codeBase="C:/Users/jfernandezt/Desktop/APP TEMPORAL/APP_RANSA_NET_COLAS/PY_RANSA_NET_WCF/PY_RANSA_NET_TS/bin/Release/PY_RANSA_NET_TS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PY_RANSA_NET_TS.Cls_PedidoTS, PY_RANSA_NET_TS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultaPedidoMovimiento" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c18a5b4f-0de8-f588-f66f-1ed2055df807" executionId="d8c6f4fc-878f-4994-822b-44b8922995ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd523e66-69fd-b81d-4747-76ad3e8197b0" executionId="676b975b-4629-4c55-9b27-ca1a6b8aa6d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d8c6f4fc-878f-4994-822b-44b8922995ea" testId="c18a5b4f-0de8-f588-f66f-1ed2055df807" testName="ConsultaPedidoMovimiento" computerName="JOSE-VAIO" duration="00:00:00.0846019" startTime="2014-10-08T11:56:25.8014624-05:00" endTime="2014-10-08T11:56:26.1404817-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8c6f4fc-878f-4994-822b-44b8922995ea">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method PY_RANSA_NET_TS.Cls_PedidoTS.ConsultaPedidoMovimiento threw exception: 
+System.Net.WebException: Error en el servidor remoto: (400) Solicitud incorrecta.</Message>
+          <StackTrace>    en System.Net.HttpWebRequest.GetResponse()
+   en PY_RANSA_NET_TS.Cls_PedidoTS.ConsultaPedidoMovimiento() en C:\Users\jfernandezt\Desktop\APP TEMPORAL\APP_RANSA_NET_COLAS\PY_RANSA_NET_WCF\PY_RANSA_NET_TS\Cls_PedidoTS.cs:línea 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="676b975b-4629-4c55-9b27-ca1a6b8aa6d0" testId="cd523e66-69fd-b81d-4747-76ad3e8197b0" testName="RegistrarPedidoMovimiento" computerName="JOSE-VAIO" duration="00:00:00.0105503" startTime="2014-10-08T11:56:26.1454820-05:00" endTime="2014-10-08T11:56:26.1594828-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="676b975b-4629-4c55-9b27-ca1a6b8aa6d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method PY_RANSA_NET_TS.Cls_PedidoTS.RegistrarPedidoMovimiento threw exception: 
+System.Net.WebException: Error en el servidor remoto: (415) Unsupported Media Type.</Message>
+          <StackTrace>    en System.Net.HttpWebRequest.GetResponse()
+   en PY_RANSA_NET_TS.Cls_PedidoTS.RegistrarPedidoMovimiento() en C:\Users\jfernandezt\Desktop\APP TEMPORAL\APP_RANSA_NET_COLAS\PY_RANSA_NET_WCF\PY_RANSA_NET_TS\Cls_PedidoTS.cs:línea 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

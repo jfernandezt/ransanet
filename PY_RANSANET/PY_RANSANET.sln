@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PY_RANSANET_CL", "PY_RANSANET_CL\PY_RANSANET_CL.vbproj", "{5CB4E088-C849-4BA2-BE7E-BD983734D008}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PY_RANSANET_SOA", "PY_RANSANET_SOA\PY_RANSANET_SOA.vbproj", "{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PY_RANSANET_EN", "PY_RANSANET_EN\PY_RANSANET_EN.vbproj", "{D175237D-7CAA-47EF-A224-4E6EB720CE39}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,26 +23,6 @@ Global
 		{5CB4E088-C849-4BA2-BE7E-BD983734D008}.Release|Mixed Platforms.Build.0 = Release|x86
 		{5CB4E088-C849-4BA2-BE7E-BD983734D008}.Release|x86.ActiveCfg = Release|x86
 		{5CB4E088-C849-4BA2-BE7E-BD983734D008}.Release|x86.Build.0 = Release|x86
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{1CD2FF29-62D5-4AFF-8677-126B07FEBA1F}.Release|x86.ActiveCfg = Release|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D175237D-7CAA-47EF-A224-4E6EB720CE39}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
