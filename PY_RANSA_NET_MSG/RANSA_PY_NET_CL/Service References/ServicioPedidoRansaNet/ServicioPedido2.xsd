@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49839/ServicioPedido.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PY_RANSA_NET_EN" />
+  <xs:import schemaLocation="http://localhost:49839/ServicioPedido.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/PY_RANSA_NET_WCF.Ws_RansaNet" />
+  <xs:element name="RegistrarPedidoMovimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PY_RANSA_NET_EN" minOccurs="0" name="pedido" nillable="true" type="q1:Cls_PedidoEN" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistrarPedidoMovimientoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistrarPedidoMovimientoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaPedidoMovimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pStr_CodPedido" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaPedidoMovimientoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PY_RANSA_NET_WCF.Ws_RansaNet" minOccurs="0" name="ConsultaPedidoMovimientoResult" nillable="true" type="q2:ArrayOfPedidoMovimientoRansa" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

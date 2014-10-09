@@ -22,10 +22,7 @@ Partial Class Frm_ConsPedido
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_ConsPedido))
         Me.KryptonPanel = New ComponentFactory.Krypton.Toolkit.KryptonPanel()
-        Me.KryptonHeaderGroup3 = New ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup()
-        Me.KryptonGroup2 = New ComponentFactory.Krypton.Toolkit.KryptonGroup()
-        Me.dgvDetallePedido = New ComponentFactory.Krypton.Toolkit.KryptonDataGridView()
-        Me.KryptonHeaderGroup2 = New ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup()
+        Me.hgPedido = New ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup()
         Me.KryptonGroup1 = New ComponentFactory.Krypton.Toolkit.KryptonGroup()
         Me.dgvPedido = New ComponentFactory.Krypton.Toolkit.KryptonDataGridView()
         Me.KryptonHeaderGroup1 = New ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup()
@@ -33,35 +30,27 @@ Partial Class Frm_ConsPedido
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtDesCliente = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
         Me.txtCodCliente = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
-        Me.KryptonCheckBox2 = New ComponentFactory.Krypton.Toolkit.KryptonCheckBox()
+        Me.chkCliente = New ComponentFactory.Krypton.Toolkit.KryptonCheckBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.ChkFecha = New ComponentFactory.Krypton.Toolkit.KryptonCheckBox()
         Me.dtpFecFin = New ComponentFactory.Krypton.Toolkit.KryptonDateTimePicker()
         Me.dtpFecInicio = New ComponentFactory.Krypton.Toolkit.KryptonDateTimePicker()
         Me.KryptonLabel2 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
-        Me.KryptonLabel1 = New ComponentFactory.Krypton.Toolkit.KryptonLabel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtCodPedido = New ComponentFactory.Krypton.Toolkit.KryptonTextBox()
-        Me.KryptonCheckBox1 = New ComponentFactory.Krypton.Toolkit.KryptonCheckBox()
+        Me.chkCodPedido = New ComponentFactory.Krypton.Toolkit.KryptonCheckBox()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.tsbConsultar = New System.Windows.Forms.ToolStripButton()
         Me.tsbExportar = New System.Windows.Forms.ToolStripButton()
         Me.tsbSalir = New System.Windows.Forms.ToolStripButton()
         Me.KryptonManager = New ComponentFactory.Krypton.Toolkit.KryptonManager(Me.components)
         CType(Me.KryptonPanel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.KryptonPanel.SuspendLayout()
-        CType(Me.KryptonHeaderGroup3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.KryptonHeaderGroup3.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.KryptonHeaderGroup3.Panel.SuspendLayout()
-        Me.KryptonHeaderGroup3.SuspendLayout()
-        CType(Me.KryptonGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.KryptonGroup2.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.KryptonGroup2.Panel.SuspendLayout()
-        Me.KryptonGroup2.SuspendLayout()
-        CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.KryptonHeaderGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.KryptonHeaderGroup2.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.KryptonHeaderGroup2.Panel.SuspendLayout()
-        Me.KryptonHeaderGroup2.SuspendLayout()
+        CType(Me.hgPedido, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.hgPedido.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.hgPedido.Panel.SuspendLayout()
+        Me.hgPedido.SuspendLayout()
         CType(Me.KryptonGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.KryptonGroup1.Panel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.KryptonGroup1.Panel.SuspendLayout()
@@ -83,69 +72,29 @@ Partial Class Frm_ConsPedido
         '
         'KryptonPanel
         '
-        Me.KryptonPanel.Controls.Add(Me.KryptonHeaderGroup3)
-        Me.KryptonPanel.Controls.Add(Me.KryptonHeaderGroup2)
+        Me.KryptonPanel.Controls.Add(Me.hgPedido)
         Me.KryptonPanel.Controls.Add(Me.KryptonHeaderGroup1)
         Me.KryptonPanel.Controls.Add(Me.ToolStrip1)
         Me.KryptonPanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.KryptonPanel.Location = New System.Drawing.Point(0, 0)
         Me.KryptonPanel.Name = "KryptonPanel"
-        Me.KryptonPanel.Size = New System.Drawing.Size(757, 517)
+        Me.KryptonPanel.Size = New System.Drawing.Size(787, 282)
         Me.KryptonPanel.TabIndex = 0
         '
-        'KryptonHeaderGroup3
+        'hgPedido
         '
-        Me.KryptonHeaderGroup3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.KryptonHeaderGroup3.HeaderStylePrimary = ComponentFactory.Krypton.Toolkit.HeaderStyle.Secondary
-        Me.KryptonHeaderGroup3.HeaderVisibleSecondary = False
-        Me.KryptonHeaderGroup3.Location = New System.Drawing.Point(0, 274)
-        Me.KryptonHeaderGroup3.Name = "KryptonHeaderGroup3"
+        Me.hgPedido.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.hgPedido.HeaderStylePrimary = ComponentFactory.Krypton.Toolkit.HeaderStyle.Secondary
+        Me.hgPedido.HeaderVisibleSecondary = False
+        Me.hgPedido.Location = New System.Drawing.Point(0, 110)
+        Me.hgPedido.Name = "hgPedido"
         '
-        'KryptonHeaderGroup3.Panel
+        'hgPedido.Panel
         '
-        Me.KryptonHeaderGroup3.Panel.Controls.Add(Me.KryptonGroup2)
-        Me.KryptonHeaderGroup3.Size = New System.Drawing.Size(757, 243)
-        Me.KryptonHeaderGroup3.TabIndex = 2
-        Me.KryptonHeaderGroup3.ValuesPrimary.Heading = "Detalle Pedidos (Registros: 0)"
-        '
-        'KryptonGroup2
-        '
-        Me.KryptonGroup2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.KryptonGroup2.Location = New System.Drawing.Point(3, 3)
-        Me.KryptonGroup2.Name = "KryptonGroup2"
-        '
-        'KryptonGroup2.Panel
-        '
-        Me.KryptonGroup2.Panel.Controls.Add(Me.dgvDetallePedido)
-        Me.KryptonGroup2.Size = New System.Drawing.Size(749, 214)
-        Me.KryptonGroup2.TabIndex = 1
-        '
-        'dgvDetallePedido
-        '
-        Me.dgvDetallePedido.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvDetallePedido.Location = New System.Drawing.Point(3, 3)
-        Me.dgvDetallePedido.Name = "dgvDetallePedido"
-        Me.dgvDetallePedido.Size = New System.Drawing.Size(741, 206)
-        Me.dgvDetallePedido.TabIndex = 0
-        '
-        'KryptonHeaderGroup2
-        '
-        Me.KryptonHeaderGroup2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.KryptonHeaderGroup2.HeaderStylePrimary = ComponentFactory.Krypton.Toolkit.HeaderStyle.Secondary
-        Me.KryptonHeaderGroup2.HeaderVisibleSecondary = False
-        Me.KryptonHeaderGroup2.Location = New System.Drawing.Point(0, 110)
-        Me.KryptonHeaderGroup2.Name = "KryptonHeaderGroup2"
-        '
-        'KryptonHeaderGroup2.Panel
-        '
-        Me.KryptonHeaderGroup2.Panel.Controls.Add(Me.KryptonGroup1)
-        Me.KryptonHeaderGroup2.Size = New System.Drawing.Size(757, 164)
-        Me.KryptonHeaderGroup2.TabIndex = 1
-        Me.KryptonHeaderGroup2.ValuesPrimary.Heading = "Pedidos (Registros: 0)"
+        Me.hgPedido.Panel.Controls.Add(Me.KryptonGroup1)
+        Me.hgPedido.Size = New System.Drawing.Size(787, 172)
+        Me.hgPedido.TabIndex = 1
+        Me.hgPedido.ValuesPrimary.Heading = "Pedidos (Registros: 0)"
         '
         'KryptonGroup1
         '
@@ -158,7 +107,7 @@ Partial Class Frm_ConsPedido
         'KryptonGroup1.Panel
         '
         Me.KryptonGroup1.Panel.Controls.Add(Me.dgvPedido)
-        Me.KryptonGroup1.Size = New System.Drawing.Size(749, 135)
+        Me.KryptonGroup1.Size = New System.Drawing.Size(779, 143)
         Me.KryptonGroup1.TabIndex = 1
         '
         'dgvPedido
@@ -168,7 +117,8 @@ Partial Class Frm_ConsPedido
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgvPedido.Location = New System.Drawing.Point(3, 3)
         Me.dgvPedido.Name = "dgvPedido"
-        Me.dgvPedido.Size = New System.Drawing.Size(741, 127)
+        Me.dgvPedido.ReadOnly = True
+        Me.dgvPedido.Size = New System.Drawing.Size(771, 135)
         Me.dgvPedido.TabIndex = 0
         '
         'KryptonHeaderGroup1
@@ -182,7 +132,7 @@ Partial Class Frm_ConsPedido
         'KryptonHeaderGroup1.Panel
         '
         Me.KryptonHeaderGroup1.Panel.Controls.Add(Me.KryptonGroup3)
-        Me.KryptonHeaderGroup1.Size = New System.Drawing.Size(757, 85)
+        Me.KryptonHeaderGroup1.Size = New System.Drawing.Size(787, 85)
         Me.KryptonHeaderGroup1.TabIndex = 0
         Me.KryptonHeaderGroup1.ValuesPrimary.Heading = "Filtro Búsqueda"
         '
@@ -199,7 +149,7 @@ Partial Class Frm_ConsPedido
         Me.KryptonGroup3.Panel.Controls.Add(Me.GroupBox2)
         Me.KryptonGroup3.Panel.Controls.Add(Me.GroupBox3)
         Me.KryptonGroup3.Panel.Controls.Add(Me.GroupBox1)
-        Me.KryptonGroup3.Size = New System.Drawing.Size(749, 56)
+        Me.KryptonGroup3.Size = New System.Drawing.Size(779, 56)
         Me.KryptonGroup3.TabIndex = 0
         '
         'GroupBox2
@@ -207,8 +157,8 @@ Partial Class Frm_ConsPedido
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.txtDesCliente)
         Me.GroupBox2.Controls.Add(Me.txtCodCliente)
-        Me.GroupBox2.Controls.Add(Me.KryptonCheckBox2)
-        Me.GroupBox2.Location = New System.Drawing.Point(424, 3)
+        Me.GroupBox2.Controls.Add(Me.chkCliente)
+        Me.GroupBox2.Location = New System.Drawing.Point(452, 3)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(320, 47)
         Me.GroupBox2.TabIndex = 2
@@ -230,65 +180,67 @@ Partial Class Frm_ConsPedido
         Me.txtCodCliente.Size = New System.Drawing.Size(40, 20)
         Me.txtCodCliente.TabIndex = 1
         '
-        'KryptonCheckBox2
+        'chkCliente
         '
-        Me.KryptonCheckBox2.Location = New System.Drawing.Point(3, 18)
-        Me.KryptonCheckBox2.Name = "KryptonCheckBox2"
-        Me.KryptonCheckBox2.Size = New System.Drawing.Size(61, 20)
-        Me.KryptonCheckBox2.TabIndex = 0
-        Me.KryptonCheckBox2.Values.Text = "Cliente"
+        Me.chkCliente.Location = New System.Drawing.Point(3, 18)
+        Me.chkCliente.Name = "chkCliente"
+        Me.chkCliente.Size = New System.Drawing.Size(61, 20)
+        Me.chkCliente.TabIndex = 0
+        Me.chkCliente.Values.Text = "Cliente"
         '
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.ChkFecha)
         Me.GroupBox3.Controls.Add(Me.dtpFecFin)
         Me.GroupBox3.Controls.Add(Me.dtpFecInicio)
         Me.GroupBox3.Controls.Add(Me.KryptonLabel2)
-        Me.GroupBox3.Controls.Add(Me.KryptonLabel1)
-        Me.GroupBox3.Location = New System.Drawing.Point(4, 3)
+        Me.GroupBox3.Location = New System.Drawing.Point(3, 3)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(226, 47)
+        Me.GroupBox3.Size = New System.Drawing.Size(255, 47)
         Me.GroupBox3.TabIndex = 0
         Me.GroupBox3.TabStop = False
         '
+        'ChkFecha
+        '
+        Me.ChkFecha.Location = New System.Drawing.Point(4, 18)
+        Me.ChkFecha.Name = "ChkFecha"
+        Me.ChkFecha.Size = New System.Drawing.Size(42, 20)
+        Me.ChkFecha.TabIndex = 1
+        Me.ChkFecha.Values.Text = "Del"
+        '
         'dtpFecFin
         '
+        Me.dtpFecFin.Enabled = False
         Me.dtpFecFin.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpFecFin.Location = New System.Drawing.Point(125, 17)
+        Me.dtpFecFin.Location = New System.Drawing.Point(162, 17)
         Me.dtpFecFin.Name = "dtpFecFin"
         Me.dtpFecFin.Size = New System.Drawing.Size(86, 21)
         Me.dtpFecFin.TabIndex = 1
         '
         'dtpFecInicio
         '
+        Me.dtpFecInicio.Enabled = False
         Me.dtpFecInicio.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpFecInicio.Location = New System.Drawing.Point(23, 17)
+        Me.dtpFecInicio.Location = New System.Drawing.Point(52, 17)
         Me.dtpFecInicio.Name = "dtpFecInicio"
         Me.dtpFecInicio.Size = New System.Drawing.Size(86, 21)
         Me.dtpFecInicio.TabIndex = 0
         '
         'KryptonLabel2
         '
-        Me.KryptonLabel2.Location = New System.Drawing.Point(108, 18)
+        Me.KryptonLabel2.Location = New System.Drawing.Point(139, 18)
         Me.KryptonLabel2.Name = "KryptonLabel2"
         Me.KryptonLabel2.Size = New System.Drawing.Size(21, 20)
         Me.KryptonLabel2.TabIndex = 0
         Me.KryptonLabel2.Values.Text = "Al"
         '
-        'KryptonLabel1
-        '
-        Me.KryptonLabel1.Location = New System.Drawing.Point(-1, 17)
-        Me.KryptonLabel1.Name = "KryptonLabel1"
-        Me.KryptonLabel1.Size = New System.Drawing.Size(29, 20)
-        Me.KryptonLabel1.TabIndex = 0
-        Me.KryptonLabel1.Values.Text = "Del"
-        '
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.txtCodPedido)
-        Me.GroupBox1.Controls.Add(Me.KryptonCheckBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(233, 3)
+        Me.GroupBox1.Controls.Add(Me.chkCodPedido)
+        Me.GroupBox1.Location = New System.Drawing.Point(261, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(188, 47)
         Me.GroupBox1.TabIndex = 1
@@ -302,23 +254,31 @@ Partial Class Frm_ConsPedido
         Me.txtCodPedido.Size = New System.Drawing.Size(91, 20)
         Me.txtCodPedido.TabIndex = 1
         '
-        'KryptonCheckBox1
+        'chkCodPedido
         '
-        Me.KryptonCheckBox1.Location = New System.Drawing.Point(6, 18)
-        Me.KryptonCheckBox1.Name = "KryptonCheckBox1"
-        Me.KryptonCheckBox1.Size = New System.Drawing.Size(90, 20)
-        Me.KryptonCheckBox1.TabIndex = 0
-        Me.KryptonCheckBox1.Values.Text = "Cod. Pedido"
+        Me.chkCodPedido.Location = New System.Drawing.Point(6, 18)
+        Me.chkCodPedido.Name = "chkCodPedido"
+        Me.chkCodPedido.Size = New System.Drawing.Size(90, 20)
+        Me.chkCodPedido.TabIndex = 0
+        Me.chkCodPedido.Values.Text = "Cod. Pedido"
         '
         'ToolStrip1
         '
         Me.ToolStrip1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbConsultar, Me.tsbExportar, Me.tsbSalir})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.tsbConsultar, Me.tsbExportar, Me.tsbSalir})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(757, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(787, 25)
         Me.ToolStrip1.TabIndex = 1
         Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.Image = Global.PY_RANSANET_CL.My.Resources.Resources._New
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(62, 22)
+        Me.ToolStripButton1.Text = "&Nuevo"
         '
         'tsbConsultar
         '
@@ -348,7 +308,7 @@ Partial Class Frm_ConsPedido
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(757, 517)
+        Me.ClientSize = New System.Drawing.Size(787, 282)
         Me.Controls.Add(Me.KryptonPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -359,19 +319,10 @@ Partial Class Frm_ConsPedido
         CType(Me.KryptonPanel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.KryptonPanel.ResumeLayout(False)
         Me.KryptonPanel.PerformLayout()
-        CType(Me.KryptonHeaderGroup3.Panel, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonHeaderGroup3.Panel.ResumeLayout(False)
-        CType(Me.KryptonHeaderGroup3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonHeaderGroup3.ResumeLayout(False)
-        CType(Me.KryptonGroup2.Panel, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonGroup2.Panel.ResumeLayout(False)
-        CType(Me.KryptonGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonGroup2.ResumeLayout(False)
-        CType(Me.dgvDetallePedido, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.KryptonHeaderGroup2.Panel, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonHeaderGroup2.Panel.ResumeLayout(False)
-        CType(Me.KryptonHeaderGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.KryptonHeaderGroup2.ResumeLayout(False)
+        CType(Me.hgPedido.Panel, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.hgPedido.Panel.ResumeLayout(False)
+        CType(Me.hgPedido, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.hgPedido.ResumeLayout(False)
         CType(Me.KryptonGroup1.Panel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.KryptonGroup1.Panel.ResumeLayout(False)
         CType(Me.KryptonGroup1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -415,24 +366,22 @@ Partial Class Frm_ConsPedido
     Friend WithEvents tsbConsultar As System.Windows.Forms.ToolStripButton
     Friend WithEvents tsbExportar As System.Windows.Forms.ToolStripButton
     Friend WithEvents tsbSalir As System.Windows.Forms.ToolStripButton
-    Friend WithEvents KryptonHeaderGroup2 As ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup
+    Friend WithEvents hgPedido As ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup
     Friend WithEvents KryptonHeaderGroup1 As ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup
-    Friend WithEvents KryptonHeaderGroup3 As ComponentFactory.Krypton.Toolkit.KryptonHeaderGroup
-    Friend WithEvents KryptonGroup2 As ComponentFactory.Krypton.Toolkit.KryptonGroup
-    Friend WithEvents dgvDetallePedido As ComponentFactory.Krypton.Toolkit.KryptonDataGridView
     Friend WithEvents KryptonGroup1 As ComponentFactory.Krypton.Toolkit.KryptonGroup
     Friend WithEvents dgvPedido As ComponentFactory.Krypton.Toolkit.KryptonDataGridView
     Friend WithEvents KryptonGroup3 As ComponentFactory.Krypton.Toolkit.KryptonGroup
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents dtpFecInicio As ComponentFactory.Krypton.Toolkit.KryptonDateTimePicker
-    Friend WithEvents KryptonLabel1 As ComponentFactory.Krypton.Toolkit.KryptonLabel
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents txtDesCliente As ComponentFactory.Krypton.Toolkit.KryptonTextBox
     Friend WithEvents txtCodCliente As ComponentFactory.Krypton.Toolkit.KryptonTextBox
-    Friend WithEvents KryptonCheckBox2 As ComponentFactory.Krypton.Toolkit.KryptonCheckBox
+    Friend WithEvents chkCliente As ComponentFactory.Krypton.Toolkit.KryptonCheckBox
     Friend WithEvents dtpFecFin As ComponentFactory.Krypton.Toolkit.KryptonDateTimePicker
     Friend WithEvents KryptonLabel2 As ComponentFactory.Krypton.Toolkit.KryptonLabel
     Friend WithEvents txtCodPedido As ComponentFactory.Krypton.Toolkit.KryptonTextBox
-    Friend WithEvents KryptonCheckBox1 As ComponentFactory.Krypton.Toolkit.KryptonCheckBox
+    Friend WithEvents chkCodPedido As ComponentFactory.Krypton.Toolkit.KryptonCheckBox
+    Friend WithEvents ChkFecha As ComponentFactory.Krypton.Toolkit.KryptonCheckBox
+    Friend WithEvents ToolStripButton1 As System.Windows.Forms.ToolStripButton
 End Class
