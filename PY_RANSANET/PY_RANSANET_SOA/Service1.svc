@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="PY_RANSANET_SOA.Service1" CodeBehind="Service1.svc.vb" %>

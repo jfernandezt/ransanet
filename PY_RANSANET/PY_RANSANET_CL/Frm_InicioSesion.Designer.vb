@@ -100,7 +100,7 @@ Partial Class Frm_InicioSesion
         Me.LogoPictureBox.Image = Global.PY_RANSANET_CL.My.Resources.Resources.LogoRansa
         Me.LogoPictureBox.Location = New System.Drawing.Point(0, 0)
         Me.LogoPictureBox.Name = "LogoPictureBox"
-        Me.LogoPictureBox.Size = New System.Drawing.Size(124, 119)
+        Me.LogoPictureBox.Size = New System.Drawing.Size(124, 116)
         Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.LogoPictureBox.TabIndex = 0
         Me.LogoPictureBox.TabStop = False
@@ -111,7 +111,7 @@ Partial Class Frm_InicioSesion
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnCancelar
-        Me.ClientSize = New System.Drawing.Size(291, 119)
+        Me.ClientSize = New System.Drawing.Size(291, 116)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnIngresar)
         Me.Controls.Add(Me.txtPassword)

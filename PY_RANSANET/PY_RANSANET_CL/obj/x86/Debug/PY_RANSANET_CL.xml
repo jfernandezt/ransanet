@@ -6,225 +6,7 @@ PY_RANSANET_CL
 </name>
 </assembly>
 <members>
-<member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.descripcion">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.fecInventario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.fecInventarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.idDetalleInventario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.idDetalleInventarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.idInventario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.idInventarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.nroDocumento">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.nroSerie">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa.observacion">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.InventarioRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.apellidosUsuario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.codUsuario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.contraSenia">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.correoUsuario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.idCliente">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.idClienteSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.idUsuario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.idUsuarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.nombresUsuario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa.tipoUsuario">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.UsuarioRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.AreaRansa.idArea">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.AreaRansa.idAreaSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.AreaRansa.idCliente">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.AreaRansa.idClienteSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.AreaRansa.nomArea">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.AreaRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.codPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecCreacion">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecCreacionSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecUpdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.fecUpdateSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idCliente">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idClienteSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idEstadoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idEstadoPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idTipoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idTipoPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idUsuarioCreador">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idUsuarioCreadorSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idUsuarioupdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.idUsuarioupdateSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.nomCliente">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.nomEstadoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.nomUsuarioCreador">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.nomUsuarioUpdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.stsRegistro">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa.stsRegistroSpecified">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.PedidoRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.cantCajas">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.cantCajasSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.descripcion">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.fecCreacion">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.fecCreacionSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idDetalleInvetario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idDetalleInvetarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idInventario">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idInventarioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idPedidoDetalle">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.idPedidoDetalleSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa.indUbicado">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.PedidoDetalleRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.EstadoPedidoRansa.idEstadoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.EstadoPedidoRansa.idEstadoPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.EstadoPedidoRansa.nomEstadoPedido">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.EstadoPedidoRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.SerieRansa.codSerie">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.SerieRansa.codSerieSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.SerieRansa.idSerie">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.SerieRansa.idSerieSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.SerieRansa.nomSerie">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.SerieRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.TipoPedidoRansa.idTipoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.TipoPedidoRansa.idTipoPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.TipoPedidoRansa.nomTipoPedido">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.TipoPedidoRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecCreacion">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecCreacionSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecFin">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecFinSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecInicio">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecInicioSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecMovimeinto">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecMovimeintoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecUpdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.fecUpdateSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idEstadopedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idEstadopedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idPedidoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idPedidoMovimiento">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idPedidoMovimientoSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idUsuarioCreador">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idUsuarioCreadorSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idUsuarioUpdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.idUsuarioUpdateSpecified">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.nomEstadoPedido">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.nomUsuarioCreador">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.nomUsuarioUpdate">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.stsRegistro">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa.stsRegistroSpecified">
-	<remarks/>
-</member><member name="T:PY_RANSANET_CL.Ws_RansaNet.PedidoMovimientoRansa">
-	<remarks/>
-</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.ResourceManager">
+<member name="P:PY_RANSANET_CL.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -232,6 +14,54 @@ PY_RANSANET_CL
 	<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.BannerRansaNet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Buscar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.LogoRansa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.LogoRansaArchivo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Out">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Tramas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PY_RANSANET_CL.My.Resources.Resources.Update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:PY_RANSANET_CL.My.Resources.Resources">
 	<summary>
